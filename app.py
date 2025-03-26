@@ -8,7 +8,8 @@ from kokoro.pipeline import LANG_CODES
 # Streamlit UI
 st.title("Kokoro-TTS all languages")
 st.markdown("## Text to Speech")
-st.markdown("Mix text and selected languages for some funny accents")
+st.markdown("Mix text and selected languages for some funny accents.")
+st.markdown("Download the audio it if you like it.")
 
 # Create language options dictionary
 lang_options = {f"{name}": code for code, name in LANG_CODES.items()}
