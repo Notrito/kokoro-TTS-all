@@ -22,7 +22,7 @@ Try it out on Hugging Face Spaces:
 pip install -r requirements.txt
 
 ## 🎯 Usage
-bashstreamlit run app.py
+streamlit run app.py
 
 ## 📄 License
 GPL License
